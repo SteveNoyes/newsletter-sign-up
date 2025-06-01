@@ -65,3 +65,33 @@ button:hover {
   }
 
 }
+
+@media (min-width: 1000px) {
+
+  .newsletter-wrapper {
+    height: 370px !important;
+    padding: 55px 65px 75px 65px !important;
+    border-radius: 30px;
+  }
+
+  .newsletter-wrapper img {
+    padding-top: 0 !important;
+    padding-bottom: 25px !important;
+  }
+
+  .newsletter-wrapper h2 {
+    font-family: 'Roboto Bold';
+    font-size: 55px;
+    padding-bottom: 25px;
+  }
+
+  .newsletter-wrapper p {
+    line-height: 1.5;
+    padding-bottom: 40px;
+  }
+
+  .desktop-line-break {
+    display: none !important;
+  }
+
+}
