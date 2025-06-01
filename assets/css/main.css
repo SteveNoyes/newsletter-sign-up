@@ -1,10 +1,3 @@
-/*
-  Layout Viewport Widths:
-
-  Mobile: 375px
-  Desktop: 1440px 
-*/
-
 /* Colors */
 
 :root {
@@ -18,10 +11,7 @@
   --black: #000000;
 }
 
-
-
 /* Fonts */
-/* Font size (paragraph): 16px */
 
 @font-face {
   font-family: 'Roboto Regular';
@@ -49,4 +39,86 @@
 body {
   font-size: 16px;
   font-family: 'Roboto Regular', sans-serif, monospace;
+  background-color: var(--grey);
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.newsletter-wrapper {
+  max-width: 375px;
+  margin: auto;
+  background-color: var(--white);
+}
+
+.newsletter-image img {
+  max-width: 375px;
+}
+
+.signup-main-wrapper {
+  padding: 30px 25px 35px 25px;
+}
+
+.info-wrapper h2 {
+  font-family: 'Roboto Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.info-wrapper-graph  {
+  font-family: 'Roboto Regular';
+  font-size: 16px;
+  padding-bottom: 25px;
+  line-height: 1.5;
+}
+
+.checkmark-and-statement {
+  display: flex;
+  align-items: normal;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.checkmark-and-statement img {
+  margin-top: -20px;
+  margin-right: 15px;
+}
+
+.end-checkmark img {
+  margin-top: -3px !important;
+  margin-bottom: 35px;
+}
+
+.desktop-line-break {
+  display: inline;
+}
+
+.input-label {
+  font-family: 'Roboto Bold';
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 18px;
+  width: 282px;
+  max-width: 282px;
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  font-family: 'Roboto Bold';
+  font-size: 16px;
+  background-color: var(--blue-800);
+  color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
 }
