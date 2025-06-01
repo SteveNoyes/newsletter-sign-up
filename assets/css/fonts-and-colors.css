@@ -9,6 +9,8 @@
   --grey: hsl(0, 0%,58%);
   --white: hsl(0, 0%, 100%);
   --black: #000000;
+  --lin-grad-start: #fe5379;
+  --lin-grad-end: #ff693d;
 }
 
 /* Fonts */

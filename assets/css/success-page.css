@@ -52,10 +52,13 @@ button {
   background-color: var(--blue-800);
   color: var(--white);
   border-radius: 8px;
+  border: none;
 }
 
 button:hover {
   cursor: pointer;
+  background: linear-gradient(to right, var(--lin-grad-start) 30%, var(--lin-grad-end) 50%);
+  box-shadow: 5px 8px 20px 1px var(--lin-grad-end);
 }
 
 @media (max-width: 372px) {

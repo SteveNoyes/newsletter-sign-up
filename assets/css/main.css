@@ -95,6 +95,13 @@ button {
   color: var(--white);
   padding: 20px;
   border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, var(--lin-grad-start) 30%, var(--lin-grad-end) 50%);
+  box-shadow: 5px 8px 20px 1px var(--lin-grad-end);
 }
 
 @media (min-width: 1000px) {
