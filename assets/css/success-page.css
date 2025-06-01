@@ -54,6 +54,14 @@ button {
   border-radius: 8px;
 }
 
-@media screen and (min-width: 372px) {
-  
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 372px) {
+
+  .desktop-line-break {
+    display: none !important;
+  }
+
 }
