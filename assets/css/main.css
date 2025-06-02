@@ -70,10 +70,23 @@ body {
   display: inline;
 }
 
+.label-and-error-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .input-label {
   font-family: 'Roboto Bold';
   font-size: 12px;
   padding-bottom: 10px;
+}
+
+.input-error-statement {
+  color: var(--red);
+  font-family: 'Roboto Bold';
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin-right: 6px;
 }
 
 input {
@@ -82,7 +95,7 @@ input {
   max-width: 282px;
   border-radius: 8px;
   border: 1px solid var(--grey);
-  color: var(--white);
+  color: var(--black);
   margin-bottom: 20px;
   font-size: 16px;
 }
@@ -102,6 +115,34 @@ button:hover {
   cursor: pointer;
   background: linear-gradient(to right, var(--lin-grad-start) 30%, var(--lin-grad-end) 50%);
   box-shadow: 5px 8px 20px 1px var(--lin-grad-end);
+}
+
+.error-show {
+  display: flex !important;
+}
+
+.error-styles {
+  border: 2px solid var(--red-error-border) !important;
+  color: var(--red) !important;
+  background-color: var(--light-red) !important;
+}
+
+.error-styles::placeholder {
+  color: var(--red-error-border) !important
+}
+
+.focused {
+  background-color: var(--white) !important;
+  color: var(--grey) !important;
+}
+
+input[type="text"]:focus {
+  background-color: var(--white) !important;
+  color: var(--grey) !important;
+}
+
+input[type="text"]:focus::placeholder {
+  color: var(--grey) !important;
 }
 
 @media (min-width: 1000px) {

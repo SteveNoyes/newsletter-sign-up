@@ -3,6 +3,9 @@
 :root {
   /* Primary */
   --red: hsl(4, 100%, 67%);
+
+  --light-red: hsla(4, 100%, 67%, 20%);
+  --red-error-border: hsla(4, 100%, 67%, 80%);
   /* Neutral */
   --blue-800: hsl(234, 29%, 20%);
   --blue-700: hsl(235, 18%, 26%);

@@ -6,7 +6,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Highlights](#highlights)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -45,25 +44,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-
-### Highlights
-
-```html
-<h1>Some HTML code</h1>
-```
-```css
-.proud-of-this-css {
-  font-family: monospace;
-  color: green;
-  background-color: black;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('Yellow World')
-}
-```
 
 
 ### Useful resources
